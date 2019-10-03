@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>trelby</id>
+    <version>2.2</version>
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>trelby (Install)</title>
+    <authors>Trelby developers</authors>
+    <projectUrl>https://www.trelby.org</projectUrl>
+    <tags>trelby screenwriting film</tags>
+    <summary>The free, multiplatform, feature-rich screenwriting program!</summary>
+    <description>
+		## A free, multiplatform, feature-rich screenwriting program!
+
+		Trelby is _simple_, _fast_ and _elegantly laid out_ to make screenwriting simple. It is _infinitely_ configurable.
+
+		Trelby is _free software_, that you can contribute to.
+
+		### Features
+
+		* **Screenplay editor**: Enforces correct script format and pagination, auto-completion, and spell checking.
+		* **Multiplatform** : Behaves identically on all platforms, generating the exact same output.
+		* **Choice of view**: Multiple views, including draft view, WYSIWYG mode, and fullscreen to suit your writing style.
+		* **Name database**: Character name database containing over 200,000 names from various countries.
+		* **Reporting**: Scene/location/character/dialogue reports.
+		* **Compare**: Ability to compare scripts, so you know what changed between versions.
+		* **Import**: Screenplay formatted text, Final Draft XML (.fdx), Celtx (.celtx), Fountain (.fountain), Adobe Story (.astx) and Fade In Pro (.fadein).
+		* **Export**: PDF, formatted text, HTML, RTF, Final Draft XML (.fdx) and Fountain (.fountain).
+		* **PDF**: Built-in, highly configurable PDF generator. Supports embedding your chosen font. Also supports generating PDFs with custom watermarks, to help track shared files.
+		* **Free software**: Licensed under the GPL, Trelby welcomes developers and screenwriters to contribute in making it more useful.
+
+	</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

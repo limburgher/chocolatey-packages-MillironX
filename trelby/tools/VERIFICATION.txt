@@ -1,0 +1,8 @@
+
+
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+To verify, download file from https://github.com/trelby/trelby/releases/download/import/Setup-Trelby-2.2.exe
+With the checksum package installed, run `checksum -t sha256 -f Setup-Trelby-2.exe`
