@@ -7,7 +7,7 @@ $packageArgs = @{
   fileType      = 'EXE'
   file         = $fileLocation
 
-  softwareName  = 'Trelby' 
+  softwareName  = 'Trelby*'
   checksum      = '1D8A55160B2814D76672D9FD45A07D00236CEC242550B068B2BB558B48E217B'
   checksumType  = 'sha256'
   silentArgs   = '/S'           # NSIS

@@ -5,32 +5,43 @@
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>trelby</id>
     <version>2.2</version>
+    <packageSourceUrl>https://github.com/millironx/chocolatey-packages</packageSourceUrl>
+    <owners>millironx</owners>
+
+    <!-- ============================== -->
+
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <title>trelby (Install)</title>
     <authors>Trelby developers</authors>
     <projectUrl>https://www.trelby.org</projectUrl>
+    <iconUrl>https://www.trelby.org/assets/logo.png</iconUrl>
+    <licenseUrl>https://github.com/oskusalerma/trelby/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/oskusalerma/trelby</projectSourceUrl>
+    <docsUrl>https://www.trelby.org/assets/manual.html</docsUrl>
+    <mailingListUrl>https://www.trelby.org/assets/manual.html</mailingListUrl>
+    <bugTrackerUrl>https://github.com/oskusalerma/trelby/issues</bugTrackerUrl>
     <tags>trelby screenwriting film</tags>
     <summary>The free, multiplatform, feature-rich screenwriting program!</summary>
     <description>
-		## A free, multiplatform, feature-rich screenwriting program!
+## A free, multiplatform, feature-rich screenwriting program!
 
-		Trelby is _simple_, _fast_ and _elegantly laid out_ to make screenwriting simple. It is _infinitely_ configurable.
+Trelby is _simple_, _fast_ and _elegantly laid out_ to make screenwriting simple. It is _infinitely_ configurable.
 
-		Trelby is _free software_, that you can contribute to.
+Trelby is _free software_, that you can contribute to.
 
-		### Features
+### Features
 
-		* **Screenplay editor**: Enforces correct script format and pagination, auto-completion, and spell checking.
-		* **Multiplatform** : Behaves identically on all platforms, generating the exact same output.
-		* **Choice of view**: Multiple views, including draft view, WYSIWYG mode, and fullscreen to suit your writing style.
-		* **Name database**: Character name database containing over 200,000 names from various countries.
-		* **Reporting**: Scene/location/character/dialogue reports.
-		* **Compare**: Ability to compare scripts, so you know what changed between versions.
-		* **Import**: Screenplay formatted text, Final Draft XML (.fdx), Celtx (.celtx), Fountain (.fountain), Adobe Story (.astx) and Fade In Pro (.fadein).
-		* **Export**: PDF, formatted text, HTML, RTF, Final Draft XML (.fdx) and Fountain (.fountain).
-		* **PDF**: Built-in, highly configurable PDF generator. Supports embedding your chosen font. Also supports generating PDFs with custom watermarks, to help track shared files.
-		* **Free software**: Licensed under the GPL, Trelby welcomes developers and screenwriters to contribute in making it more useful.
-
+* **Screenplay editor**: Enforces correct script format and pagination, auto-completion, and spell checking.
+* **Multiplatform** : Behaves identically on all platforms, generating the exact same output.
+* **Choice of view**: Multiple views, including draft view, WYSIWYG mode, and fullscreen to suit your writing style.
+* **Name database**: Character name database containing over 200,000 names from various countries.
+* **Reporting**: Scene/location/character/dialogue reports.
+* **Compare**: Ability to compare scripts, so you know what changed between versions.
+* **Import**: Screenplay formatted text, Final Draft XML (.fdx), Celtx (.celtx), Fountain (.fountain), Adobe Story (.astx) and Fade In Pro (.fadein).
+* **Export**: PDF, formatted text, HTML, RTF, Final Draft XML (.fdx) and Fountain (.fountain).
+* **PDF**: Built-in, highly configurable PDF generator. Supports embedding your chosen font. Also supports generating PDFs with custom watermarks, to help track shared files.
+* **Free software**: Licensed under the GPL, Trelby welcomes developers and screenwriters to contribute in making it more useful.
 	</description>
   </metadata>
   <files>
