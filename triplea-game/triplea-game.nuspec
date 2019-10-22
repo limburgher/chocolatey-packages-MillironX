@@ -16,7 +16,7 @@
     <projectUrl>https://triplea-game.org/</projectUrl>
     <iconUrl>https://rawcdn.githack.com/triplea-game/triplea/44107944e9b7bfd541a6ffeb216ea5ac34feee7c/java-extras/src/main/resources/org/triplea/swing/ta_icon.png</iconUrl>
     <copyright>2019 TripleA Contributors</copyright>
-    <licenseUrl>https://github.com/triplea-game/triplea/blob/master/README.md#license</licenseUrl>
+    <licenseUrl>https://github.com/triplea-game/triplea/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/triplea-game/triplea</projectSourceUrl>
     <docsUrl>https://triplea-game.org/user-guide/</docsUrl>

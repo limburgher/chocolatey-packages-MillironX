@@ -1,6 +1,6 @@
 ﻿
 
-From: https://www.gnu.org/licenses/gpl-3.0.txt
+From: https://github.com/triplea-game/triplea/blob/master/LICENSE
 
 LICENSE
 
