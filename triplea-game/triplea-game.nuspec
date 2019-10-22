@@ -14,7 +14,7 @@
     <title>triplea-game (Install)</title>
     <authors>TripleA contributors</authors>
     <projectUrl>https://triplea-game.org/</projectUrl>
-    <iconUrl>https://triplea-game.org/images/icon_menu.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/triplea-game/triplea/44107944e9b7bfd541a6ffeb216ea5ac34feee7c/java-extras/src/main/resources/org/triplea/swing/ta_icon.png</iconUrl>
     <copyright>2019 TripleA Contributors</copyright>
     <licenseUrl>https://github.com/triplea-game/triplea/blob/master/README.md#license</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
