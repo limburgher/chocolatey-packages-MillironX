@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>triplea-game</id>
-    <version>1.9.13066</version>
+    <version>1.9.00.13066</version>
     <packageSourceUrl>https://github.com/MillironX/chocolatey-packages</packageSourceUrl>
     <owners>MillironX</owners>
 
