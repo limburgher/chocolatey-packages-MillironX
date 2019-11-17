@@ -1,20 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>e-sword</id>
-    <version>12.0.1</version>
-    <owners>millironx</owners>
-    <packageSourceUrl>https://github.com/millironx/chocolatey-packages</packageSourceUrl>
+    <version>12.1.0</version>
+    <owners>MillironX</owners>
+    <packageSourceUrl>https://github.com/MillironX/chocolatey-packages</packageSourceUrl>
 
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
-    <title>e-sword</title>
+    <title>e-Sword</title>
     <authors>Rick Meyers</authors>
     <projectUrl>https://e-sword.net/</projectUrl>
-    <iconUrl>https://e-sword.net/images/header-logo.png</iconUrl>
+    <iconUrl>https://www.e-sword.net/images/applogo.png</iconUrl>
     <copyright>2019 Rick Meyers</copyright>
     <docsUrl>https://e-sword.net/training.html</docsUrl>
     <tags>esword bible christianity</tags>
