@@ -1,6 +1,6 @@
 
 
-From: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+From: https://github.com/oskusalerma/trelby/blob/master/LICENSE
 
 LICENSE
                     GNU GENERAL PUBLIC LICENSE

@@ -4,22 +4,23 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>trelby</id>
-    <version>2.2</version>
-    <packageSourceUrl>https://github.com/millironx/chocolatey-packages</packageSourceUrl>
-    <owners>millironx</owners>
+    <version>2.2.0.20191117</version>
+    <packageSourceUrl>https://github.com/MillironX/chocolatey-packages</packageSourceUrl>
+    <owners>MillironX</owners>
 
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
-    <title>trelby (Install)</title>
+    <title>Trelby (Install)</title>
     <authors>Trelby developers</authors>
     <projectUrl>https://www.trelby.org</projectUrl>
-    <iconUrl>https://www.trelby.org/assets/logo.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/oskusalerma/trelby/580222d3ea181586c18442600ed26c01f67e2654/resources/icon64.png</iconUrl>
+    <copyright>2003-2006, 2011-2012 Osku Salerma, 2011-2012 Anil Gulecha</copyright>
     <licenseUrl>https://github.com/oskusalerma/trelby/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/oskusalerma/trelby</projectSourceUrl>
     <docsUrl>https://www.trelby.org/assets/manual.html</docsUrl>
-    <mailingListUrl>https://www.trelby.org/assets/manual.html</mailingListUrl>
+    <mailingListUrl>http://groups.google.com/group/trelby</mailingListUrl>
     <bugTrackerUrl>https://github.com/oskusalerma/trelby/issues</bugTrackerUrl>
     <tags>trelby screenwriting film</tags>
     <summary>The free, multiplatform, feature-rich screenwriting program!</summary>
@@ -43,6 +44,22 @@ Trelby is _free software_, that you can contribute to.
 * **PDF**: Built-in, highly configurable PDF generator. Supports embedding your chosen font. Also supports generating PDFs with custom watermarks, to help track shared files.
 * **Free software**: Licensed under the GPL, Trelby welcomes developers and screenwriters to contribute in making it more useful.
 	</description>
+  <releaseNotes>
+_New features:_
+
+- Undo/redo.
+- Fountain import/export support.
+- Adobe Story import support.
+- Fade In Pro import support.
+- Install directory is configurable on Windows.
+- Text import can optionally ignore certain lines.
+
+_Other changes:_
+
+- Better looking tabs.
+- Windows installer will not try to run Trelby as the wrong user anymore.
+- Small enhancements to font selection.
+  </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
