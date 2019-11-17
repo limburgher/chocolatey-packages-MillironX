@@ -1,8 +1,0 @@
-﻿
-
-VERIFICATION
-Verification is intended to assist the Chocolatey moderators and community
-in verifying that this package's contents are trustworthy.
- 
-Checksums are provided by the developer: see instructions at https://github.com/triplea-game/triplea/wiki/Verifying-Binaries
-The checksums themselves are listed as part of the release page at https://github.com/triplea-game/triplea/releases/tag/1.9.0.0.13066
