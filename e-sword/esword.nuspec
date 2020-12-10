@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>e-sword</id>
-    <version>12.1.0</version>
+    <version>12.2.0</version>
     <owners>MillironX</owners>
     <packageSourceUrl>https://github.com/MillironX/chocolatey-packages</packageSourceUrl>
 
@@ -15,12 +15,20 @@
     <authors>Rick Meyers</authors>
     <projectUrl>https://e-sword.net/</projectUrl>
     <iconUrl>https://www.e-sword.net/images/applogo.png</iconUrl>
-    <copyright>2019 Rick Meyers</copyright>
+    <copyright>2020 Rick Meyers</copyright>
     <docsUrl>https://e-sword.net/training.html</docsUrl>
     <tags>esword bible christianity</tags>
     <summary>The Sword of the LORD with an electronic edge</summary>
     <description>e-Sword is a fast and effective way to study the Bible. e-Sword is feature rich and user friendly with more capabilities than you would expect in a free Bible study app.</description>
-    <releaseNotes>**Downloader** updated to accommodate the AMG Publishers titles now being sold through eStudySource.</releaseNotes>
+    <releaseNotes>
+      New **Dim Light** greenish background color which may ease eye strain for
+      some people.
+
+      **Bible Search** improved to locate words that include accents on the first or
+      last character.
+
+      User-made **Bible modules** can now include footnotes in the text and database.
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
