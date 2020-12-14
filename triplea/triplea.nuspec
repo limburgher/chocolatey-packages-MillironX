@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>triplea</id>
-    <version>1.9</version>
+    <version>2.5.22294</version>
     <packageSourceUrl>https://github.com/MillironX/chocolatey-packages</packageSourceUrl>
     <owners>MillironX</owners>
 
@@ -15,7 +15,7 @@
     <authors>TripleA contributors</authors>
     <projectUrl>https://triplea-game.org/</projectUrl>
     <iconUrl>https://rawcdn.githack.com/triplea-game/assets/ee0b9a84a581ebfc70729a88486ef21b0180c4a5/game_headed_assets/icons/triplea_icon_128_128.png</iconUrl>
-    <copyright>2019 TripleA Contributors</copyright>
+    <copyright>2020 TripleA Contributors</copyright>
     <licenseUrl>https://github.com/triplea-game/triplea/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/triplea-game/triplea</projectSourceUrl>
@@ -26,10 +26,11 @@
     <summary>The World’s Foremost Open-Source Grand Strategy Game</summary>
     <description>TripleA is a turn based strategy game and board game engine, similar to Axis &amp; Allies or Risk. Though TripleA comes with many games inside, it is just an engine for playing games, and is not a game itself.  TripleA started out as a World War II simulation, but has since expanded to include different conflicts, as well as variations and mods of popular games and maps (a ‘map’ is like a board, while a ‘game’ is a specific setup on a map/board).</description>
     <releaseNotes>
-- Fix determination of transported units during amphibious assaults (#4252)
-- Use dynamic heap size for installers to fix Windows 32 bit installer (#4328)
-- Add check for sea units to enemySurfaceExclusionTerritories to fix surface warship objectives (#4351)
-- Update A&amp;A forum poster for new forum (#4361)
+      - FIX Increase window size to prevent chat message panel from being squished and rendering too small
+      - FIX Avoid game crash during game selection when maps are missing required XML data
+      - FIX Fix potential freeze when starting large save games in lobby.
+      - FIX Map parsing errors will be more gracefully handled, will no longer crash the game and will print the name of the map that generated the error.
+      - FIX World War 2 Global will correctly switch unit ownership of units placed in India from UK_Pacific to British.
     </releaseNotes>
   </metadata>
   <files>
