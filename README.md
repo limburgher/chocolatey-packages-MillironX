@@ -7,5 +7,5 @@ I have quit using Windows as my main operating system (Fedora rocks!), and maint
 
 ### Out-of-date packages
 
-- e-sword
+- ~~e-sword~~
 - triplea
