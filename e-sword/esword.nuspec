@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>e-sword</id>
-    <version>12.2.0</version>
+    <version>13.0.0</version>
     <owners>MillironX</owners>
     <packageSourceUrl>https://github.com/MillironX/chocolatey-packages</packageSourceUrl>
 
@@ -15,19 +15,15 @@
     <authors>Rick Meyers</authors>
     <projectUrl>https://e-sword.net/</projectUrl>
     <iconUrl>https://www.e-sword.net/images/applogo.png</iconUrl>
-    <copyright>2020 Rick Meyers</copyright>
+    <copyright>2021 Rick Meyers</copyright>
     <docsUrl>https://e-sword.net/training.html</docsUrl>
     <tags>esword bible christianity</tags>
     <summary>The Sword of the LORD with an electronic edge</summary>
     <description>e-Sword is a fast and effective way to study the Bible. e-Sword is feature rich and user friendly with more capabilities than you would expect in a free Bible study app.</description>
     <releaseNotes>
-      New **Dim Light** greenish background color which may ease eye strain for
-      some people.
+      New **Audio Bibles** feature! Listen to the Bible being read to you in dramatic fashion. Play/Pause button is on the Bible view's toolbar. Audio is available for KJV, KJV-BRG, ESV, CEV, WEB, NRSV and Spanish PDT Bibles.
 
-      **Bible Search** improved to locate words that include accents on the first or
-      last character.
-
-      User-made **Bible modules** can now include footnotes in the text and database.
+      All audio Bibles are generously provided by Bible.is, a ministry of Faith Comes By Hearing.
     </releaseNotes>
   </metadata>
   <files>
