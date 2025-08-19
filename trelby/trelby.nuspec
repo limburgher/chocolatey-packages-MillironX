@@ -1,67 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>trelby</id>
-    <version>2.2.0.20191117</version>
-    <packageSourceUrl>https://github.com/MillironX/chocolatey-packages</packageSourceUrl>
-    <owners>MillironX</owners>
-
-    <!-- ============================== -->
-
-    <!-- == SOFTWARE SPECIFIC SECTION == -->
-    <title>Trelby (Install)</title>
-    <authors>Trelby developers</authors>
+    <version>2.4.15</version>
+    <packageSourceUrl>https://codeberg.org</packageSourceUrl>
+    <owners>Gwyn Ciesla</owners>
+    <title>trelby (Install)</title>
+    <authors>Osku Salerma, Gwyn Ciesla, Trelby Contributors</authors>
     <projectUrl>https://www.trelby.org</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/oskusalerma/trelby/580222d3ea181586c18442600ed26c01f67e2654/resources/icon64.png</iconUrl>
-    <copyright>2003-2006, 2011-2012 Osku Salerma, 2011-2012 Anil Gulecha</copyright>
-    <licenseUrl>https://github.com/oskusalerma/trelby/blob/master/LICENSE</licenseUrl>
+    <iconUrl>https://www.trelby.org/assets/logo32.png</iconUrl>
+    <copyright>2025 Trelby Contributors</copyright>
+    <licenseUrl>https://github.com/trelby/trelby/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/oskusalerma/trelby</projectSourceUrl>
-    <docsUrl>https://www.trelby.org/assets/manual.html</docsUrl>
-    <mailingListUrl>http://groups.google.com/group/trelby</mailingListUrl>
-    <bugTrackerUrl>https://github.com/oskusalerma/trelby/issues</bugTrackerUrl>
-    <tags>trelby screenwriting film</tags>
+    <projectSourceUrl>https://github.com/trelby/trelby/</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/trelby/trelby/issues/</bugTrackerUrl>
+    <tags>trelby</tags>
     <summary>The free, multiplatform, feature-rich screenwriting program!</summary>
-    <description>
-## A free, multiplatform, feature-rich screenwriting program!
-
-Trelby is _simple_, _fast_ and _elegantly laid out_ to make screenwriting simple. It is _infinitely_ configurable.
-
-Trelby is _free software_, that you can contribute to.
-
-### Features
-
-* **Screenplay editor**: Enforces correct script format and pagination, auto-completion, and spell checking.
-* **Multiplatform** : Behaves identically on all platforms, generating the exact same output.
-* **Choice of view**: Multiple views, including draft view, WYSIWYG mode, and fullscreen to suit your writing style.
-* **Name database**: Character name database containing over 200,000 names from various countries.
-* **Reporting**: Scene/location/character/dialogue reports.
-* **Compare**: Ability to compare scripts, so you know what changed between versions.
-* **Import**: Screenplay formatted text, Final Draft XML (.fdx), Celtx (.celtx), Fountain (.fountain), Adobe Story (.astx) and Fade In Pro (.fadein).
-* **Export**: PDF, formatted text, HTML, RTF, Final Draft XML (.fdx) and Fountain (.fountain).
-* **PDF**: Built-in, highly configurable PDF generator. Supports embedding your chosen font. Also supports generating PDFs with custom watermarks, to help track shared files.
-* **Free software**: Licensed under the GPL, Trelby welcomes developers and screenwriters to contribute in making it more useful.
-	</description>
-  <releaseNotes>
-_New features:_
-
-- Undo/redo.
-- Fountain import/export support.
-- Adobe Story import support.
-- Fade In Pro import support.
-- Install directory is configurable on Windows.
-- Text import can optionally ignore certain lines.
-
-_Other changes:_
-
-- Better looking tabs.
-- Windows installer will not try to run Trelby as the wrong user anymore.
-- Small enhancements to font selection.
-  </releaseNotes>
+    <description>Trelby is a screenplay writing program. See https://www.trelby.org/ for more details.</description>
+    <dependencies>
+      <dependency id="python3" />
+    </dependencies>
   </metadata>
   <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
     <file src="tools\**" target="tools" />
   </files>
 </package>
